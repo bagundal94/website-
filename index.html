@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Ikan Segar - Segar, Murah, Berkualitas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Toko Ikan Segar</h1>
+            <p>Segar langsung dari nelayan</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#produk">Produk</a></li>
+                <li><a href="#tentang">Tentang Kami</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Ikan Segar Setiap Hari</h2>
+            <p>Kami menyediakan berbagai jenis ikan segar langsung dari nelayan lokal dengan harga terjangkau</p>
+        </div>
+    </section>
+
+    <section id="produk" class="products">
+        <div class="container">
+            <h2>Produk Kami</h2>
+            <div class="product-grid">
+                <!-- Produk 1 -->
+                <div class="product-card">
+                    <img src="images/ikan-1.jpg" alt="Ikan Nila">
+                    <h3>Ikan Nila</h3>
+                    <p class="price">Rp 35.000/kg</p>
+                    <p class="desc">Segar, ukuran 300-500 gram/ekor</p>
+                    <button class="buy-btn" onclick="orderViaWhatsApp('Ikan Nila')">
+                        <i class="fab fa-whatsapp"></i> Pesan Sekarang
+                    </button>
+                </div>
+
+                <!-- Produk 2 -->
+                <div class="product-card">
+                    <img src="images/ikan-2.jpg" alt="Ikan Gurame">
+                    <h3>Ikan Gurame</h3>
+                    <p class="price">Rp 55.000/kg</p>
+                    <p class="desc">Ukuran 500-700 gram/ekor</p>
+                    <button class="buy-btn" onclick="orderViaWhatsApp('Ikan Gurame')">
+                        <i class="fab fa-whatsapp"></i> Pesan Sekarang
+                    </button>
+                </div>
+
+                <!-- Produk 3 -->
+                <div class="product-card">
+                    <img src="images/ikan-3.jpg" alt="Ikan Lele">
+                    <h3>Ikan Lele</h3>
+                    <p class="price">Rp 25.000/kg</p>
+                    <p class="desc">Ukuran 200-300 gram/ekor</p>
+                    <button class="buy-btn" onclick="orderViaWhatsApp('Ikan Lele')">
+                        <i class="fab fa-whatsapp"></i> Pesan Sekarang
+                    </button>
+                </div>
+
+                <!-- Produk 4 -->
+                <div class="product-card">
+                    <img src="images/ikan-4.jpg" alt="Ikan Bandeng">
+                    <h3>Ikan Bandeng</h3>
+                    <p class="price">Rp 40.000/kg</p>
+                    <p class="desc">Segar tanpa duri</p>
+                    <button class="buy-btn" onclick="orderViaWhatsApp('Ikan Bandeng')">
+                        <i class="fab fa-whatsapp"></i> Pesan Sekarang
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tentang" class="about">
+        <div class="container">
+            <h2>Tentang Kami</h2>
+            <p>Toko Ikan Segar telah beroperasi sejak 2010, menyediakan ikan-ikan segar berkualitas tinggi langsung dari nelayan lokal. Kami berkomitmen untuk memberikan produk terbaik dengan harga terjangkau.</p>
+        </div>
+    </section>
+
+    <section id="kontak" class="contact">
+        <div class="container">
+            <h2>Hubungi Kami</h2>
+            <p><i class="fas fa-phone"></i> 0812-3456-7890</p>
+            <p><i class="fas fa-map-marker-alt"></i> Jl. Nelayan No. 123, Kota Pesisir</p>
+            <p><i class="fas fa-clock"></i> Buka setiap hari 08.00 - 17.00 WIB</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Toko Ikan Segar. Semua hak dilindungi.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
